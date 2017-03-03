@@ -9,10 +9,11 @@
 <body>
 	<%
 		// Scriptlet(스크립트릿) : 자바 코드를 사용할 수 있는 영역
-		String str = "홍길동";
+		String str = "테스트";
 		System.out.println("str : " + str);  // 콘솔에 출력
 		out.println("str : " + str);  // 웹 상에서 출력
 	%>
-	<%=str%>	
+	<hr>
+	str의 값 : <%=str%>
 </body>
 </html>
