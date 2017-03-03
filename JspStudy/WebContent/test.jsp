@@ -13,6 +13,7 @@
 		System.out.println("str : " + str);  // 콘솔에 출력
 		out.println("str : " + str);  // 웹 상에서 출력
 	%>
-	
+	<hr>
+	str의 값 : <%=str%>
 </body>
 </html>
